@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>SWEETSTACKS</title>
-    <link rel="shortcut icon" href="img/logoIcon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
   </head>
 
   <body>
     <header class="Encabezado">
-      <a href="index.html"><img class="logo" src="img//logo.svg" alt="" /></a>
+      <a href="index.html"><img class="logo"
+          src="img/logo.svg"
+          alt /></a>
       <nav class="menu">
         <ul>
           <li><a href="index.html">Acerca de</a></li>
@@ -23,19 +29,29 @@
     </header>
 
     <main class="main">
-      <div class="principal-container">
-        <h2>¿Qué Hacemos?</h2>
-        <section class="container">
-          <img class="img_gourmet" src="img/gourmet.webp" alt="" />
-          <p class="descripcion_gourmet">
-            En nuestra página web de recetas, encontrarás una amplia variedad de
-            opciones culinarias que te inspirarán a preparar comidas deliciosas
-            y saludables. Ofrecemos recetas detalladas que van desde platos
-            principales beneficiosos hasta opciones rápidas y fáciles para el
-            día.
-          </p>
-        </section>
-        <!--<section class="container">
+      <div class="test">
+        <div class="principal-container">
+          <h1 class="titlo">Biembenido a SWEETSTACKS</h1>
+          <h2 class="subtitulo">¿Qué Hacemos?</h2>
+          <section class="container">
+            <!-- <img class="img_gourmet" src="img/gourmet.webp" alt="img_gourmet" /> -->
+            <img class src="img/banner.webp" alt="img_gourmet" />
+            <p class="descripcion_gourmet">
+              En nuestra página web de recetas, encontrarás una amplia variedad
+              de
+              opciones culinarias que te inspirarán a preparar comidas
+              deliciosas
+              y saludables. Ofrecemos recetas detalladas que van desde platos
+              principales beneficiosos hasta opciones rápidas y fáciles para el
+              día.
+            </p>
+            <div class="expo_recetas">
+              <button onclick="window.location.href='html/recetas.html'">
+                Explorar mas recetas
+              </button>
+            </div>
+          </section>
+          <!--<section class="container">
         <p class="descripcion_panaderia">
           En nuestra página web de recetas de repostería, te ofrecemos una
           deliciosa selección de postres y dulces que harán que cualquier
@@ -53,18 +69,21 @@
         </p>
         <img class="img_panaderia" src="img/panaderia.webp" alt="" />
       </section>-->
-        <section>
+          <!-- <section>
           <div class="expo_recetas">
-            <a href="html/recetas.html">Explorar Recetas</a>
+            <button>Explorar mas recetas</button>
           </div>
-        </section>
+        </section> -->
+        </div>
       </div>
-
-      <div id="test">
-        <h3>Testimonios</h3>
+      <div id="test"
+        class="test">
+        <h3 class="destaque_titulo">Testimonios</h3>
         <section class="section_testimonios">
           <div class="testimonial">
-            <img class="img_test" src="img/Ana_M..webp" alt="Testimonio 1" />
+            <img class="img_test"
+              src="img/Ana_M..webp"
+              alt="Testimonio 1" />
             <p>
               "Estas recetas me ayudaron a mejorar mis habilidades en la cocina.
               ¡Los platillos son increíbles!"
@@ -72,7 +91,9 @@
             <p>María P.</p>
           </div>
           <div class="testimonial">
-            <img class="img_test" src="img/Juan_P..webp" alt="Testimonio 2" />
+            <img class="img_test"
+              src="img/Juan_P..webp"
+              alt="Testimonio 2" />
             <p>
               "Gracias a sus recetas, he podido sorprender a mi familia con
               postres deliciosos."
@@ -80,7 +101,9 @@
             <p>Carlos L.</p>
           </div>
           <div class="testimonial">
-            <img class="img_test" src="img/Maria_L.webp" alt="Testimonio 1" />
+            <img class="img_test"
+              src="img/Maria_L.webp"
+              alt="Testimonio 1" />
             <p>
               "Siempre había pensado que cocinar comidas deliciosas era
               complicado, pero gracias a estas recetas, logró sorprender a mi
@@ -93,46 +116,33 @@
 
       <section class="banner">
         <h3>Suscribete a nuestro boletin de recetas!!</h3>
-        <p>recibe las mejores recetas directamente en tu correo cada semana</p>
-        <button>Suscribete Ahora</button>
-      </section>
-
-      <section class="section_social">
-        <h2>¡Siguenos en redes sociales!</h2>
-        <div class="icon_social">
-          <div class="social-icon facebook">
-            <a href="#"
-              ><img src="img/social_media/facebook.png" alt="Facebook"
-            /></a>
-          </div>
-          <div class="social-icon instagram">
-            <a href="#"
-              ><img src="img/social_media/instagram.png" alt="Instagram"
-            /></a>
-          </div>
-          <div class="social-icon twitter">
-            <a href="#"
-              ><img src="img/social_media/logotipos.png" alt="Twitter"
-            /></a>
-          </div>
-          <div class="social-icon youtube">
-            <a href="#"
-              ><img src="img/social_media/youtube.png" alt="YouTube"
-            /></a>
-          </div>
-        </div>
+        <label id="labelEmail" for="email">Recibe las mejores recetas
+          directamente en tu correo cada semana</label>
+        <form action class="form_group">
+          <!-- <p>recibe las mejores recetas directamente en tu correo cada -->
+          <!-- semana</p> -->
+          <!-- <label id="labelEmail" for="email">Recibe las mejores recetas directamente en tu correo cada semana</label> -->
+          <input type="email" name="email" id="email"
+            placeholder="Escribe tu email" required>
+          <button class type="submit">Suscribete Ahora</button>
+        </form>
       </section>
     </main>
 
     <footer class="footer">
-      <p>&copy; 2024 SWEETSTACKS. Todos los derechos reservados.</p>
       <nav class="pie">
         <ul>
+          <!-- <li><a href="#">Privacidad</a></li> -->
+          <!-- <li><a href="#">Terminos y Condiciones</a></li> -->
+          <!-- <li><a href="#">Trabaja con nosotros</a></li> -->
           <li><a href="#">Cookies</a></li>
           <li><a href="#">Accesibilidad</a></li>
           <li><a href="#">Ayuda</a></li>
         </ul>
       </nav>
+      <p>&copy; 2024 SWEETSTACKS. Todos los derechos reservados.</p>
+      <p>Desarrollado por:</p>
     </footer>
   </body>
+
 </html>

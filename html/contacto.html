@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SWEETSTACKS</title>
-    <link rel="shortcut icon" href="../img/logoIcon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
   </head>
 
   <body>
     <header class="Encabezado">
-      <a href="../index.html"
-        ><img class="logo" src="../img/logo.svg" alt=""
-      /></a>
+      <a href="../index.html"><img class="logo" src="../img/logo.svg" alt /></a>
       <nav class="menu">
         <ul>
           <li><a href="../index.html">Acerca de</a></li>
@@ -57,23 +57,21 @@
               <input
                 type="text"
                 name="subject"
-                autocomplete="off"
                 placeholder="Asunto del mensaje"
                 required />
             </div>
 
             <div class="form_group">
               <label for="mensaje">Mensaje:</label>
-              <textarea
-                name="mensaje"
-                id="mensaje"
-                rows="5"
-                placeholder="Mensaje"
+              <textarea name="mensaje" id="mensaje" rows="4" cols="50"
+                placeholder="Escribe aquí tu mensaje"
                 required></textarea>
             </div>
 
             <div class="form_group">
-              <input type="submit" value="Enviar Mensaje" />
+              <!-- <input type="submit" value="Enviar Mensaje" /> -->
+              <button type="submit" value="Enviar Mensaje" class>Enviar
+                Mensaje</button>
             </div>
           </form>
         </div>
@@ -83,38 +81,38 @@
         <h2>¡Siguenos en redes sociales!</h2>
         <div class="icon_social">
           <div class="social-icon facebook">
-            <a href="#"
-              ><img src="../img/social_media/facebook.png" alt="Facebook"
-            /></a>
+            <a href="#"><img src="../img/social_media/facebook.png"
+                alt="Facebook" /></a>
           </div>
           <div class="social-icon instagram">
-            <a href="#"
-              ><img src="../img/social_media/instagram.png" alt="Instagram"
-            /></a>
+            <a href="#"><img src="../img/social_media/instagram.png"
+                alt="Instagram" /></a>
           </div>
           <div class="social-icon twitter">
-            <a href="#"
-              ><img src="../img/social_media/logotipos.png" alt="Twitter"
-            /></a>
+            <a href="#"><img src="../img/social_media/logotipos.png"
+                alt="Twitter" /></a>
           </div>
           <div class="social-icon youtube">
-            <a href="#"
-              ><img src="../img/social_media/youtube.png" alt="YouTube"
-            /></a>
+            <a href="#"><img src="../img/social_media/youtube.png"
+                alt="YouTube" /></a>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>&copy; 2024 SWEETSTACKS. Todos los derechos reservados.</p>
       <nav class="pie">
         <ul>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Terminos y Condiciones</a></li>
+          <!-- <li><a href="#">Trabaja con nosotros</a></li> -->
           <li><a href="#">Cookies</a></li>
           <li><a href="#">Accesibilidad</a></li>
           <li><a href="#">Ayuda</a></li>
         </ul>
       </nav>
+      <p>&copy; 2024 SWEETSTACKS. Todos los derechos reservados.</p>
+      <p>Desarrollado por:</p>
     </footer>
   </body>
 </html>

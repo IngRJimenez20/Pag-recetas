@@ -1,11 +1,5 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  min-height: 100%;
-  position: relative;
-  background-color: #fad0c4;
-}
+/* #region header */
+
 
 header {
   position: sticky;
@@ -21,6 +15,7 @@ header {
 
 .logo {
   padding: 20px 0;
+  /* border: 0.1px solid rgb(10, 10, 10); */
 }
 
 .menu {
@@ -52,11 +47,4 @@ header {
   background-color: #fad0c4;
   color: #110a06;
 }
-
-@media only screen and (max-width: 770px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
+/* #endregion header */

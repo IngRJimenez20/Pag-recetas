@@ -1,3 +1,5 @@
+<img src="https://i0.wp.com/www.talentotechoriente.com/wp-content/uploads/2023/12/LOGO-TALENTO-ORIENTE-COLOR-SOMBRA.png?resize=900%2C600&ssl=1" alt="Logo Talento Tech Oriente"/>
+
 # SweetStacks 🍰🍲
 
 **SweetStacks** es una plataforma de recetas de comida diseñada para los amantes de la cocina que buscan inspiración, instrucciones claras y una experiencia visual atractiva. Este proyecto fue desarrollado como parte de un bootcamp, y combina un enfoque moderno en diseño web con funcionalidades interactivas para brindar a los usuarios una experiencia práctica y útil.
@@ -10,3 +12,10 @@ SweetStacks ofrece recetas variadas, desde postres hasta platos principales. Cad
 
 - **Interfaz Fácil de Usar**: Diseñada para que los usuarios encuentren y accedan a las recetas rápidamente.
 - **Instrucciones Paso a Paso**: Cada receta viene con pasos detallados, optimizados para cocineros de todos los niveles.
+
+## Desarrolladores del proyecto:
+- **Luisa Fernanda Reyes**
+- **Daniel Aguilera**
+- **Samuel Calderón**
+- **Ricardo Jiménez**
+- **Jorge Iván Sierra Suárez**

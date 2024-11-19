@@ -1,4 +1,6 @@
 /*PIE DE PAGINA */
+/* #region footer*/
+
 
 .footer {
   background-color: rgb(237, 178, 100);
@@ -16,6 +18,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
   justify-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px;
 }
 
 .pie ul li {
@@ -34,3 +39,4 @@
   background-color: #fad0c4;
   color: #110a06;
 }
+/* #endregion footer*/

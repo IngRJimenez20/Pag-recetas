@@ -1,0 +1,375 @@
+@media only screen and (max-width: 1050px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* #region query header */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo,
+    .menu {
+        padding: 10px;
+        float: none;
+        text-align: center;
+    }
+
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .menu ul li {
+        margin-left: 0;
+    }
+
+    .menu ul li a {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    /* #endregion query header */
+
+    /* #region query main */
+
+    .main h2:first-child {
+        font-size: 28px;
+    }
+
+    .container img {
+        width: 60%;
+        height: auto;
+    }
+
+    .descripcion_gourmet,
+    .descripcion_panaderia {
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        margin-left: 0px;
+    }
+
+    .testimonial {
+        width: 60%;
+        padding: 15px;
+        margin-right: 10%;
+    }
+
+    .testimonial img {
+        width: 50%;
+    }
+
+    .banner {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .gallery_item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_contact {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .boton-ver-receta {
+        margin: 10px;
+    }
+
+    .section_social h2 {
+        font-size: 24px;
+    }
+
+    .icon_social {
+        gap: 15px;
+    }
+
+    .social-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* #endregion query main */
+
+    /* #region query footer */
+
+    .pie ul {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pie ul li a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    /* #endregion query footer */
+
+    /* #region query recetas */
+    .recetas-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .receta {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .receta-titulo {
+        font-size: 1.8rem;
+    }
+
+    .receta-descripcion {
+        font-size: 1.3rem;
+    }
+
+    .contenedor-img-receta {
+        padding: 12px;
+    }
+
+    .contenedor-img-receta img {
+        border-radius: 10px;
+    }
+
+    .derecha {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .ingredientes,
+    .instrucciones {
+        padding: 15px;
+    }
+
+    .ingredientes h3,
+    .instrucciones h3 {
+        font-size: 1.6rem;
+    }
+
+    .ingredientes ul,
+    .ingredientes ol,
+    .instrucciones ul,
+    .instrucciones ol {
+        font-size: 0.9rem;
+    }
+
+    /* #endregion query recetas */
+
+}
+
+@media (max-width: 480px) {
+
+    /* #region query header */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo,
+    .menu {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu ul li {
+        display: block;
+        margin-left: 0;
+    }
+
+    .menu ul li a {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    /* #endregion query header */
+
+    /* #region query main */
+    .main h2:first-child {
+        font-size: 24px;
+    }
+
+    .container img {
+        width: 70%;
+        height: auto;
+    }
+
+    .gallery_item {
+        flex: flex;
+        flex-direction: column;
+    }
+
+    .container-img-recetas{
+       height: auto;
+    }
+
+    .gallery_item a img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .descripcion_gourmet,
+    .descripcion_panaderia {
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-left: 0px;
+    }
+
+    .boton-ver-receta {
+        margin: 10px;
+    }
+
+    .testimonial {
+        width: 80%;
+        /* padding: 10px; */
+        /* margin: 0 auto 20px; */
+        float: left;
+    }
+
+    .testimonial img {
+        width:80%;
+        height: auto;
+    }
+
+    .banner {
+        padding: 15px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner button {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+
+    .section_contact {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .section_social h2,
+    .section_contact h2 {
+        font-size: 24px;
+    }
+
+    .icon_social {
+        gap: 10px;
+    }
+
+    .social-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .form_group input[type="submit"],
+    .form_group button {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .pie ul {
+        grid-template-columns: 1fr;
+    }
+
+    .pie ul li a {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .main {
+        padding: 10px;
+    }
+
+    .principal-container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    /* #endregion query main */
+
+    /* #region query recetas */
+    .recetas-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .receta {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .receta-titulo {
+        font-size: 1.6rem;
+    }
+
+    .receta-descripcion {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-img-receta {
+        padding: 10px;
+    }
+
+    .contenedor-img-receta img {
+        border-radius: 8px;
+    }
+
+    .derecha {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .ingredientes,
+    .instrucciones {
+        padding: 10px;
+    }
+
+    .ingredientes h3,
+    .instrucciones h3 {
+        font-size: 1.5rem;
+    }
+
+    .ingredientes ul,
+    .ingredientes ol,
+    .instrucciones ul,
+    .instrucciones ol {
+        font-size: 0.85rem;
+    }
+
+    /* #endregion query recetas */
+
+}
