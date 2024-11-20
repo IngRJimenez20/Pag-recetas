@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/carrucel.css" />
     <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon" />
   </head>
 
@@ -25,51 +26,48 @@
     </header>
 
     <main class="main">
-      <div class="test">
-        <div class="principal-container">
-          <h1 class="titlo">Biembenido a SWEETSTACKS</h1>
-          <h2 class="subtitulo">¿Qué Hacemos?</h2>
-          <section class="container">
-            <!-- <img class="img_gourmet" src="img/gourmet.webp" alt="img_gourmet" /> -->
-            <img class src="img/banner.webp" alt="img_gourmet" />
-            <p class="descripcion_gourmet">
-              En nuestra página web de recetas, encontrarás una amplia variedad
-              de opciones culinarias que te inspirarán a preparar comidas
-              deliciosas y saludables. Ofrecemos recetas detalladas que van
-              desde platos principales beneficiosos hasta opciones rápidas y
-              fáciles para el día.
-            </p>
-            <div class="expo_recetas">
-              <button onclick="window.location.href='html/recetas.html'">
-                Explorar mas recetas
-              </button>
-            </div>
-          </section>
-          <!--<section class="container">
-        <p class="descripcion_panaderia">
-          En nuestra página web de recetas de repostería, te ofrecemos una
-          deliciosa selección de postres y dulces que harán que cualquier
-          ocasión sea especial. Desde cupcakes decorados con hermosos glaseados,
-          hasta esponjosos panqueques y pasteles, aquí encontrarás recetas que
-          son tanto visualmente atractivas como irresistibles al paladar.Ya seas
-          amante de los cupcakes creativos o de los pancakes caseros para el
-          desayuno, cada receta está diseñada para que sigas los pasos
-          fácilmente, con ingredientes comunes y técnicas sencillas. Además, te
-          proporcionamos consejos para personalizar tus creaciones con
-          decoraciones únicas y cómo conseguir la textura perfecta en cada
-          bocado. Si buscas impresionar con tus habilidades de repostería o
-          simplemente disfrutar de un dulce casero, este es el lugar para ti.
-          ¡Deja volar tu creatividad y endulza tu día!
-        </p>
-        <img class="img_panaderia" src="img/panaderia.webp" alt="" />
-      </section>-->
-          <!-- <section>
-          <div class="expo_recetas">
-            <button>Explorar mas recetas</button>
+      <div class="carrusel">
+        <div class="recetas" id="receta-1">
+          <div class="receta-texto">
+            <span>Helado de la temporada</span>
+            <h2>Dulce de leche</h2>
+            <span>Helado de dulce de leche argentino con stracciatella.</span>
           </div>
-        </section> -->
+          <div class="boton-receta">
+            <span>
+              <a href="documents/DulceDeLeche.html">VER MÁS</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="recetas" id="receta-2">
+          <div class="receta-texto">
+            <span>Waffle Madame</span>
+            <h2>Waffle Madame</h2>
+            <span>Sánduche de waffle con mezcla de quesos</span>
+          </div>
+          <div class="boton-receta">
+            <span>
+              <a href="documents/DulceDeLeche.html">VER MÁS</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="atras flechas-carrucel">
+          <a onclick="FlechasCarrucel(-1)"
+            ><img src="img/carrucel/arrow_left.svg" alt="flecha hacia atras"
+          /></a>
+        </div>
+
+        <div class="adelante flechas-carrucel">
+          <a onclick="FlechasCarrucel(1)"
+            ><img
+              src="img/carrucel/arrow_right.svg"
+              alt="flecha hacia adelante"
+          /></a>
         </div>
       </div>
+
       <div id="test" class="test">
         <h3 class="destaque_titulo">Testimonios</h3>
         <section class="section_testimonios">
@@ -136,5 +134,7 @@
       <p>&copy; 2024 SWEETSTACKS. Todos los derechos reservados.</p>
       <p>Desarrollado por:</p>
     </footer>
+
+    <script src="js/index.js"></script>
   </body>
 </html>

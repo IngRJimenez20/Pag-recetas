@@ -1,5 +1,7 @@
 /* #region recetas*/
-
+:root {
+  --main-white-color: #fff8e8;
+}
 
 h3,
 h2 {
@@ -22,7 +24,7 @@ h2:hover {
 .receta {
   display: grid;
   justify-content: center;
-  background-color: white;
+  background-color: var(--main-white-color);
   padding: 20px;
   border-radius: 10px;
   width: 40%;

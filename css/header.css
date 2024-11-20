@@ -1,16 +1,11 @@
 /* #region header */
 
-
 header {
   position: sticky;
   top: 0;
   z-index: 1;
   background-color: rgb(237, 178, 100);
   padding: 10px;
-}
-
-.encabezado {
-  color: white;
 }
 
 .logo {

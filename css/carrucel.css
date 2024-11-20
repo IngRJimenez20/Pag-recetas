@@ -1,0 +1,177 @@
+:root {
+  --main-white-color: #fff8e8;
+  --brown-coffe-color: #492824;
+  --brown-hover-color: #3b1f1c;
+}
+
+.recetas {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-wrap: pretty;
+  background-attachment: fixed;
+}
+
+.recetas h2 {
+  font-weight: 700;
+  font-size: 80px;
+  color: var(--main-white-color);
+}
+
+.receta-texto {
+  cursor: context-menu;
+}
+
+#receta-1 {
+  background-image: url(../img/carrucel/DulceDeLeche.jpg);
+}
+
+#receta-2 {
+  background-image: url(../img/carrucel/WaffleMadame.jpg);
+}
+
+#receta-2 div span {
+  color: var(--brown-coffe-color);
+}
+
+#receta-2 div h2 {
+  color: var(--brown-coffe-color);
+}
+
+.recetas h2:hover {
+  text-decoration: underline;
+}
+
+.recetas span {
+  color: var(--main-white-color);
+  font-size: 30px;
+}
+
+.receta-texto span:nth-child(1) {
+  text-align: start;
+  text-decoration: underline;
+}
+
+.receta-texto span:nth-child(2) {
+  text-align: center;
+  font-weight: 500;
+}
+
+.boton-receta {
+  margin-top: 50px;
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  background-color: #d1941a;
+  padding: 2px;
+  border: 2px solid #d1941a;
+  display: table;
+  text-align: center;
+}
+
+.boton-receta span {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.boton-receta:hover {
+  background-color: #bb4129;
+  border: 2px solid #bb4129;
+}
+
+.boton-receta span a {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #fff8e8;
+}
+
+.carrusel {
+  overflow: hidden;
+  position: relative;
+  height: 88vh;
+  width: 100%;
+  top: 0;
+}
+
+.flechas-carrucel {
+  position: absolute;
+  transform: scale(2.5);
+}
+
+.atras {
+  left: 0;
+  margin-left: 20px;
+}
+
+.adelante {
+  right: 0;
+  margin-right: 20px;
+}
+
+.atras,
+.adelante {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+@media only screen and (max-width: 825px) {
+  .recetas h2 {
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--main-white-color);
+  }
+
+  .recetas {
+    text-wrap: balance;
+  }
+
+  .receta-texto {
+    margin: 0 50px;
+  }
+
+  .receta-texto span:nth-child(3) {
+    text-align: center;
+  }
+
+  .recetas span {
+    color: var(--main-white-color);
+    font-size: 18px;
+  }
+
+  .flechas-carrucel {
+    transform: scale(2);
+  }
+
+  .atras {
+    margin-left: 0;
+  }
+
+  .adelante {
+    margin-right: 0;
+  }
+}
