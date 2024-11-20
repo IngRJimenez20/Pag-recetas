@@ -14,12 +14,11 @@
 
 .pie ul {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
-  justify-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  margin: 10px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 .pie ul li {
