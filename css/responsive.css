@@ -170,7 +170,7 @@
   /* #endregion query recetas */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   /* #region query header */
   header {
     display: flex;
